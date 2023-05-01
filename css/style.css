@@ -317,7 +317,6 @@ body {
 
 .team-svg {
   fill: var(--btn-color-back);
-
 }
 
 
@@ -329,9 +328,6 @@ body {
   padding: 120px 0;
 }
 
-.customers-div {
-
-}
 
 .customers-head {
   font-size: 36px;
@@ -351,12 +347,15 @@ body {
   gap: 24px;
   align-items: center;
   justify-content: center;
-
 }
 
 .customers-li {
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--col-item);
   border-radius: 4px;
   display: flex;
@@ -366,11 +365,18 @@ body {
 }
 
 .customers-icon {
-  fill: currentColor;
+  fill: currentColor ;
 }
 
-.customers-li:hover,
-.customers-li:focus {
+.customers-link:hover,
+.customers-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+
+.customers-icon:focus,
+.customers-icon:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
