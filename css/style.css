@@ -270,8 +270,9 @@ body {
 }
 .img-desk {
   padding: 32px 16px;
-  padding: 32px 0
+  padding: 32px 0;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -281,6 +282,7 @@ body {
   text-align: center;
   margin: 0 0 8px 0;
 }
+
 .team-desc {
   font-size: 16px;
   line-height: 1.5;
@@ -290,10 +292,6 @@ body {
   margin: 0 0 8px 0;
 }
 
-.team-div {
-  display: flex;
-  justify-content: center;
-}
 .team-ul {
   display: flex;
   justify-content: center;
